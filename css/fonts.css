@@ -1,0 +1,23 @@
+@font-face {
+	font-family: "RobotoRegular";
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
+			 url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "GlenJan-Bold";
+	src: url("../fonts/GlenJan/GlenJan-Bold/Glen%20Jan%20-%20Room%20Bold.eot");
+	src: url("../fonts/GlenJan/GlenJan-Bold/Glen%20Jan%20-%20Room%20Bold.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/GlenJan/GlenJan-Bold/Glen%20Jan%20-%20Room%20Bold.woff") format("woff"),
+	url("../fonts/GlenJan/GlenJan-Bold/Glen%20Jan%20-%20Room%20Bold.ttf") format("truetype");
+}
+@font-face {
+	font-family: "GlenJan-Thin";
+	src: url("../fonts/GlenJan/GlenJan-Thin/Glen%20Jan%20-%20Room%20Thin.eot");
+	src: url("../fonts/GlenJan/GlenJan-Thin/Glen%20Jan%20-%20Room%20Thin.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/GlenJan/GlenJan-Thin/Glen%20Jan%20-%20Room%20Thin.woff") format("woff"),
+	url("../fonts/GlenJan/GlenJan-Thin/Glen%20Jan%20-%20Room%20Thin.ttf") format("truetype");
+}

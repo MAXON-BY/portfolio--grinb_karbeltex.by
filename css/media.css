@@ -1,0 +1,312 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.navbar-nav>li {
+		padding: 0 20px;
+	}
+	.navbar-default .navbar-nav>li>a {
+		font-size: 15px;
+	}
+	.logo img {
+		width: 100%;
+	}
+	.owl-theme .owl-controls {
+		position: absolute;
+		bottom: 30px;
+		left: 42%;
+		text-align: center;
+	}
+	#owl-news .owl-prev {
+		left: -400px;
+	}
+	#owl-news .owl-next {
+		right: -418px;
+	}
+	.slider p {
+		width: 620px;
+		font-size: 25px;
+		left: 18%;
+		top: 87px;
+	}
+	.slider p span {
+		font-size: 35px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.navbar-nav>li {
+		padding: 0px 0px;
+	}
+	header .wrap_bg_about {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.block_cat_1, .block_cat_2, .block_cat_3 {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.block_cat_1 p, .block_cat_2 p, .block_cat_3 p {
+		margin-bottom: 20px;
+		padding-top: 70px;
+	}
+	.block_cat_1 a, .block_cat_2 a, .block_cat_3 a {
+		font-size: 12px;
+	}
+	header .address_wrap {
+		padding-top: 20px;
+	}
+	header .logo img {
+		width: 100%;
+	}
+	.call_me {
+		margin-top: 5px;
+	}
+	.telephones_wrap {
+		margin-top: 5px;
+	}
+	.youtube {
+		width: auto;
+		height: auto;
+	}
+	.about_company p {
+		font-size: 13px;
+	}
+	.block_new img {
+		width: 100%;
+		height: auto;
+	}
+	h3{
+		font-size: 16px;
+	}
+	.slider p {
+		font-size: 30px;
+		left: 16%;
+		width: 564px;
+	}
+	.slider p span {
+		font-size: 35px;
+	}
+	.owl-theme .owl-controls {
+		position: absolute;
+		bottom: 30px;
+		left: 40%;
+		text-align: center;
+	}
+	#owl-news .owl-prev {
+		left: -300px;
+	}
+	#owl-news .owl-next {
+		right: -320px;
+	}
+	.slider p span {
+		font-size: 30px;
+	}
+	.slider p {
+		font-size: 23px;
+		left: 13%;
+	}
+	.slider p {
+		top: 106px;
+	}
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 790px) {
+	header .logo img {
+		width: 100%;
+		margin-left: 0%;
+	}
+	#owl-news .owl-prev {
+		left: -265px;
+	}
+	#owl-news .owl-next {
+		right: -270px;
+	}
+	.slider p {
+		width: 556px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.block_cat_1, .block_cat_2, .block_cat_3 {
+		width: 300px;
+		height: 215px;
+		margin-bottom: 25px;
+	}
+	.logo img {
+		width: 35%;
+	}
+	.address_wrap {
+		margin-right: 30px;
+	}
+	.telephones_wrap {
+		margin-right: 30px;
+		margin-bottom: 10px;
+	}
+	header .logo img {
+		margin: 10px 0;
+	}
+	.about_company p {
+		font-size: 12px;
+	}
+	.block_new img {
+		width: auto;
+		height: auto;
+	}
+	footer .logo img {
+		width: 70%;
+	}
+	.slider p span {
+		font-size: 24px;
+	}
+	.slider p {
+		width: 484px;
+		font-size: 17px;
+		left: 0;
+	}
+	.owl-theme .owl-controls {
+		position: absolute;
+		bottom: 30px;
+		left: 34%;
+		text-align: center;
+	}
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 577px) {
+	header .address_wrap {
+		margin-right: 0px;
+	}
+	header .address {
+		padding-bottom: 9px;
+		font-size: 13px;
+	}
+	.telephones_wrap {
+		margin-right: 0px;
+	}
+	.telephones p {
+		font-size: 19px;
+		margin-top: 8px;
+	}
+	.call_me a {
+		font-size: 14px;
+		padding: 7px 9px;
+	}
+	.block_new img {
+		width: 100%;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 465px) {
+	header .logo img {
+		display: block;
+		margin: 0 auto;
+		width: auto;
+	}
+	header .address {
+		padding-bottom: 10px;
+		font-size: 10px;
+		padding-top: 3px;
+	}
+	.telephones p {
+		font-size: 13px;
+		padding-top: 5px;
+		margin-top: 8px;
+	}
+	.call_me a {
+		font-size: 7px;
+	}
+	.about_company p {
+		font-size: 10px;
+	}
+	.block_how img {
+		width: 100%;
+	}
+	.block_how p {
+		font-size: 14px;
+	}
+	footer .logo img {
+		width: 100%;
+	}
+	footer .telephones p {
+		font-size: 15px;
+	}
+	.slider p {
+		width: 330px;
+		font-size: 17px;
+		left: 0;
+		top: 69px;
+	}
+	.slider p span {
+		font-size: 27px;
+	}
+	.owl-theme .owl-controls {
+		left: 25%;
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1201px) {
+	.slider_img_1,
+	.slider_img_2,
+	.slider_img_3,
+	.slider_img_4,
+	.slider_img_5{
+		background-position: top center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		height: 327px;
+	}
+	.slider p {
+		left: 29%;
+	}
+}
