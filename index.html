@@ -56,19 +56,16 @@
 								<a href="#page-top"></a>
 							</li>
 							<li>
-								<a class="popup_c" href="#window_empty">каталог <span class="cat"></span></a>
+								<a href="#">каталог <span class="cat"></span></a>
 							</li>
 							<li>
-								<a class="popup_c" href="#window_empty">партнерам</a>
+								<a href="#">партнерам</a>
 							</li>
 							<li>
-								<a href="about_company.html">о компании</a>
+								<a href="#">о компании</a>
 							</li>
 							<li>
-								<a href="contacts.html">контакты</a>
-							</li>
-							<li>
-								<a class="popup_c" href="#window_empty"><span class="reg"></span> вход / регистрация</a>
+								<a href="#">контакты</a>
 							</li>
 						</ul>
 					</div>
@@ -85,7 +82,7 @@
 				<!-- лого кампании  -->
 				<div class="col-md-4 col-sm-4 col-xs-12">
 					<div class="logo">
-						<img src="img/logo.png" alt="karbeltex">
+						<a href="index.php"><img src="img/logo.png" alt="karbeltex"></a>
 					</div>
 				</div>
 				<!-- адрес  с картой  -->
@@ -265,37 +262,37 @@
 			<div class="col-md-3 col-sm-3 col-xs-6">
 				<div class="block_new">
 					<h3>Халат женский махровый</h3>
-					<a class="popup" href="img/new.jpg">
+					<a href="card_product.html">
 						<img src="img/new.jpg" alt="новинка">
 					</a>
-					<p><a class="buy popup_c" href="#hidden_form">Заказать</a></p>
+					<p><a class="buy popup_card" href="#card_form">узнать цену</a></p>
 				</div>
 			</div>
 			<div class="col-md-3 col-sm-3 col-xs-6">
 				<div class="block_new">
 					<h3>Халат женский махровый</h3>
-					<a class="popup" href="img/new.jpg">
+					<a href="card_product.html">
 						<img src="img/new.jpg" alt="новинка">
 					</a>
-					<p><a class="buy popup_c" href="#hidden_form">Заказать</a></p>
+					<p><a class="buy popup_card" href="#card_form">узнать цену</a></p>
 				</div>
 			</div>
 			<div class="col-md-3 col-sm-3 col-xs-6">
 				<div class="block_new">
 					<h3>Халат женский махровый</h3>
-					<a class="popup" href="img/new.jpg">
+					<a href="card_product.html">
 						<img src="img/new.jpg" alt="новинка">
 					</a>
-					<p><a class="buy popup_c" href="#hidden_form">Заказать</a></p>
+					<p><a class="buy popup_card" href="#card_form">узнать цену</a></p>
 				</div>
 			</div>
 			<div class="col-md-3 col-sm-3 col-xs-6">
 				<div class="block_new">
 					<h3>Халат женский махровый</h3>
-					<a class="popup" href="img/new.jpg">
+					<a href="card_product.html">
 						<img src="img/new.jpg" alt="новинка">
 					</a>
-					<p><a class="buy popup_c" href="#hidden_form">Заказать</a></p>
+					<p><a class="buy popup_card" href="#card_form">узнать цену</a></p>
 				</div>
 			</div>
 
@@ -467,6 +464,36 @@
 		<p>Каталог с нашей продукцией можете открыть в PDF ссылкой ниже.</p>
 
 		<a href="#">Открыть PDF</a>
+	</form>
+</div>
+
+<div class="hidden">
+	<form id="card_form">
+		<h2>Узнать цену</h2>
+		<label class="card_wrap">
+				<span class="card_name">
+					<span>Товар:</span> <br>
+					<span>Код:</span> <br>
+					<span>Цвет:</span> <br>
+				</span>
+				<span class="card_name_in">
+					<span>Куртка</span> <br>
+					<span>641.819.059</span> <br>
+					<span>Серый</span> <br>
+				</span>
+		</label>
+		<label>
+			<span>Ваше имя:</span>
+			<input type="text" name="name" required="">
+		</label>
+		<label>
+			<span>Ваше телефон:</span>
+			<input type="tel" pattern="(\+?\d[- .]*){6,13}" title="Только цифры без пробелов и знаков! Например: 5222111" name="tel" required="">
+		</label>
+		<div class="button_wrap">
+			<button type="submit">Узнать цену</button>
+		</div>
+		<p>*Ваши данные не будут переданы третьим лицам!</p>
 	</form>
 </div>
 

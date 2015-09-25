@@ -172,6 +172,12 @@
 		left: 34%;
 		text-align: center;
 	}
+	.paginnation ul li a {
+		font-size: 17px;
+	}
+	.paginnation ul li {
+		padding: 5px 0;
+	}
 	
 	/*Disable Animation on Mobile Devices*/
 	.animated {
@@ -220,6 +226,9 @@
 	.block_new img {
 		width: 100%;
 	}
+	.block_new a.buy {
+		font-size: 12px;
+	}
 }
 
 /* Custom, iPhone Retina */
@@ -251,11 +260,14 @@
 	.block_how p {
 		font-size: 14px;
 	}
+	.block_new a.buy {
+		font-size: 8px;
+	}
 	footer .logo img {
 		width: 100%;
 	}
 	footer .telephones p {
-		font-size: 15px;
+		font-size: 11px;
 	}
 	.slider p {
 		width: 330px;
@@ -268,6 +280,25 @@
 	}
 	.owl-theme .owl-controls {
 		left: 25%;
+	}
+	#sync1.owl-theme .owl-controls {
+		bottom: 170px;
+		left: 0;
+	}
+	#sync1 .owl-next {
+		right: -300px;
+	}
+	#sync1 .owl-prev {
+		left: 6px;
+	}
+	.product_img{
+		padding-bottom: 25px;
+	}
+	.button_buy {
+		margin: 0 auto;
+		margin-top: 80px;
+		margin-bottom: 20px;
+		display: table;
 	}
 }
 

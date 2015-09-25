@@ -42,6 +42,19 @@ body {
 section{
 	margin: 20px 0;
 }
+a:link{
+	outline: none;
+}
+
+/* slider card_product
+#sync2.owl-carousel .owl-wrapper-outer {
+	width: 400px;
+}
+#sync2.item{
+	width: 100px;
+}
+/* slider card_product */
+
 #slider,
 #map{
 	margin: 0;
@@ -516,13 +529,13 @@ h2{
 .description{
 	color: #666565;
 	font-size: 14px;
+	text-align: justify;
 	font-family: "RobotoRegular", Arial, sans-serif;
 }
 .characteristic{
 	margin: 30px 0 40px 0;
 }
 .characteristic p{
-	width: 330px;
 	font-size: 14px;
 	line-height: 20px;
 	margin-bottom: 5px;
@@ -546,7 +559,7 @@ h2{
 	font-family: "GlenJan-Bold" , Arial, sans-serif;
 }
 .button_buy{
-	margin-top: 50px;
+	margin-top: 80px;
 	margin-bottom: 50px;
 }
 .button_buy a{
@@ -608,6 +621,7 @@ footer .call_me{
 }
 .paginnation ul{
 	overflow: hidden;
+	padding: 0;
 }
 .paginnation ul li{
 	float: left;
@@ -631,6 +645,68 @@ footer .call_me{
 .choose_color img,
 .product_img img{
 	border: 1px solid #efefef;
+}
+.product_img img {
+	width: 71%;
+	margin: 0 auto;
+	display: table;
+}
+.choose_color img{
+	width: 98%;
+}
+.owl-carousel .owl-item {
+	float: left;
+	width: 100px;
+}
+
+#sync2 .item{
+	background: #C9C9C9;
+	padding: 10px 0px;
+	margin: 5px;
+	color: #FFF;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	text-align: center;
+	cursor: pointer;
+	opacity: 0.4;
+}
+#sync2 .item h1{
+	font-size: 18px;
+}
+#sync2 .synced .item{
+	background: #9e90c1;
+	opacity: 1;
+}
+#sync1 .owl-prev{
+	background: url("../img/ico_left_card.png");
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 42px;
+	width: 42px;
+	left: -200px;
+
+	opacity: 0.5;
+	-webkit-transition:  opacity 1s, -webkit-transform 2s;
+	transition: opacity 1s, transform 2s;
+}
+#sync1 .owl-next{
+	background: url("../img/ico_right_card.png");
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 42px;
+	width: 30px;
+	right: -273px;
+
+	opacity: 0.5;
+	-webkit-transition:  opacity 1s, -webkit-transform 2s;
+	transition: opacity 1s, transform 2s;
+}
+#sync1 .owl-prev:hover,
+#sync1 .owl-next:hover{
+	opacity: 1;
+	-webkit-transition:  opacity 1s, -webkit-transform 2s;
+	transition: opacity 1s, transform 2s;
 }
 /* описание продукта */
 
@@ -686,9 +762,22 @@ form p{
 	margin-top: 25px;
 	margin-bottom: 0;
 }
+#card_form,
 #hidden_form {
 	max-width: 420px;
-	margin: 0 auto; }
+	margin: 0 auto;
+}
+.card_wrap{
+	overflow: hidden;
+	padding-bottom: 8px;
+	border-bottom: 2px solid #9e90c1;
+	margin-bottom: 18px;
+}
+.card_name{
+	float: left;
+	padding-right: 25px;
+}
+
 /* форма обратной свЯзи  */
 
 /* заглушка в пустые страницы  */
@@ -721,6 +810,8 @@ form p{
 	text-align: center;
 }
 /* заглушка в пустые страницы  */
+
+
 
 
 

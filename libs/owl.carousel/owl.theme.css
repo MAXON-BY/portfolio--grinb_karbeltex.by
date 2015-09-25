@@ -51,3 +51,46 @@
 	padding: 2px 10px;
 	font-size: 12px;
 }
+
+/* owl - card */
+#sync2.owl-theme .owl-controls{
+	position: absolute;
+	bottom: -45px;
+	left: 44%;
+	text-align: center;
+}
+#sync1.owl-theme .owl-controls{
+	position: absolute;
+	bottom: 304px;
+	left: 44%;
+	text-align: center;
+}
+#sync2.owl-theme .owl-controls .owl-page span{
+	display: block;
+	width: 18px;
+	height: 18px;
+	margin: 5px 7px;
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+	border: 1px solid  #9e90c1;
+	border-radius: 50%;
+	background: #EFEFEF;
+}
+#sync2.owl-theme .owl-controls .owl-page.active span{
+	border: 6px solid #9e90c1;
+	border-radius: 50%;
+	background: #EFEFEF;
+}
+#sync2.owl-theme .owl-controls.clickable .owl-page:hover span{
+	border: 6px solid #9e90c1;
+	border-radius: 50%;
+	background: #EFEFEF;
+}
+/* If PaginationNumbers is true */
+#sync2.owl-theme .owl-controls .owl-page span.owl-numbers{
+	height: auto;
+	width: auto;
+	color: #FFF;
+	padding: 2px 10px;
+	font-size: 12px;
+}
